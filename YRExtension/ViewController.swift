@@ -12,8 +12,8 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-//        let date = Date().toDateString(formatter: "yyyy-MM-dd HH:mm:ss")
-//        print(date)
+        let date = Date().toDateString(formatter: "yyyy-MM-dd HH:mm:ss")
+        print(date)
     }
 
     override func didReceiveMemoryWarning() {
