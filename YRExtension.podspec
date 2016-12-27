@@ -11,8 +11,8 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "8.0"
 
-  s.source       = { :git => "https://github.com/ruiying123/YRExtension.git", :tag => "0.0.3" }
+  s.source       = { :git => "https://github.com/ruiying123/YRExtension.git", :tag => "0.0.4" }
 
-  s.source_files  = "YRExtension", "YRExtension/Class/*.{h,m}"
+  s.source_files  = "YRExtension", "Class/*.{h,m}"
 
 end
