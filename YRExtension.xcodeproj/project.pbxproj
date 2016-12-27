@@ -139,7 +139,7 @@
 				2F1D1B121E120BBB00031856 /* DateExtension.swift */,
 				2F1D1B101E12099100031856 /* ViewExtension.swift */,
 			);
-			name = Class;
+			path = Class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
