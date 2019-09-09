@@ -9,18 +9,22 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        let date = Date().toDateString(formatter: "yyyy-MM-dd HH:mm:ss")
-        print(date)
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
+  
+  override func viewDidLoad() {
+    super.viewDidLoad()
+    let date = Date().toDateString(formatter: "yyyy-MM-dd HH:mm:ss")
+    print(date)
+    
+    print("\(YRDevice.getStatusHeight()),\(YRDevice.getTabbarHeight()), \(YRDevice.isIphoneX())")
+    
+  }
+  
+  override func didReceiveMemoryWarning() {
+    super.didReceiveMemoryWarning()
+    // Dispose of any resources that can be recreated.
+  }
+  
+  
 }
+
 

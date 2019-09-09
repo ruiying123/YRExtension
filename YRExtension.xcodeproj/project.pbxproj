@@ -17,6 +17,7 @@
 		2F1D1B261E124D2500031856 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1D1B231E124D2500031856 /* DateExtension.swift */; };
 		2F1D1B271E124D2500031856 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1D1B241E124D2500031856 /* StringExtension.swift */; };
 		2F1D1B281E124D2500031856 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1D1B251E124D2500031856 /* ViewExtension.swift */; };
+		A7FCC8FD2325F3E200BD00F6 /* YRDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FCC8FC2325F3E200BD00F6 /* YRDevice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		2F1D1B231E124D2500031856 /* DateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
 		2F1D1B241E124D2500031856 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		2F1D1B251E124D2500031856 /* ViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		A7FCC8FC2325F3E200BD00F6 /* YRDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YRDevice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 				2F1D1B231E124D2500031856 /* DateExtension.swift */,
 				2F1D1B241E124D2500031856 /* StringExtension.swift */,
 				2F1D1B251E124D2500031856 /* ViewExtension.swift */,
+				A7FCC8FC2325F3E200BD00F6 /* YRDevice.swift */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 				TargetAttributes = {
 					2F17FC231E111AF2009979B9 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2332YVCAKB;
 						ProvisioningStyle = Automatic;
 					};
 					2F17FC371E111AF3009979B9 = {
@@ -229,6 +233,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -278,6 +283,7 @@
 			files = (
 				2F1D1B271E124D2500031856 /* StringExtension.swift in Sources */,
 				2F17FC2A1E111AF2009979B9 /* ViewController.swift in Sources */,
+				A7FCC8FD2325F3E200BD00F6 /* YRDevice.swift in Sources */,
 				2F1D1B261E124D2500031856 /* DateExtension.swift in Sources */,
 				2F17FC281E111AF2009979B9 /* AppDelegate.swift in Sources */,
 				2F1D1B281E124D2500031856 /* ViewExtension.swift in Sources */,
@@ -432,11 +438,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2332YVCAKB;
 				INFOPLIST_FILE = YRExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yr.YRExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -444,11 +451,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2332YVCAKB;
 				INFOPLIST_FILE = YRExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yr.YRExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};

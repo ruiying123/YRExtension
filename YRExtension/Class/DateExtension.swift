@@ -8,16 +8,17 @@
 
 import Foundation
 
-extension Date {
-    
-    /// 转换为字符串
-    ///
-    /// - Parameter formatter: DateFormatter
-    /// - Returns: string
-    func toDateString(formatter: String) -> String {
-        let dateFmt = DateFormatter()
-        dateFmt.timeZone = TimeZone.current
-        dateFmt.dateFormat = formatter
-        return dateFmt.string(from: self)
-    }
+public extension Date {
+  
+  /// 转换为字符串
+  ///
+  /// - Parameter formatter: DateFormatter
+  /// - Returns: string
+  public func toDateString(formatter: String) -> String {
+    let dateFmt = DateFormatter()
+    dateFmt.timeZone = TimeZone.current
+    dateFmt.dateFormat = formatter
+    return dateFmt.string(from: self)
+  }
 }
+
