@@ -14,7 +14,7 @@ public extension Date {
   ///
   /// - Parameter formatter: DateFormatter
   /// - Returns: string
-  public func toDateString(formatter: String) -> String {
+  func toDateString(formatter: String) -> String {
     let dateFmt = DateFormatter()
     dateFmt.timeZone = TimeZone.current
     dateFmt.dateFormat = formatter

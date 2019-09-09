@@ -13,7 +13,7 @@ public extension String {
   /// 电话号码中间加字符(默认插入空格)
   ///
   /// - Returns: new string
-  @discardableResult public func addChar(char: String = " ") -> String {
+  @discardableResult func addChar(char: String = " ") -> String {
     let mobile = NSMutableString(string: self)
     for i in 0..<2 {
       mobile.insert(char, at: 5*i+3)
@@ -27,7 +27,7 @@ public extension String {
   ///   - aString: 插入的字符串
   ///   - index: 插入的位子
   /// - Returns: 返回新的字符串
-  @discardableResult public func insert(aString: String, at index: Int) -> String {
+  @discardableResult func insert(aString: String, at index: Int) -> String {
     let string = NSMutableString(string: self)
     string.insert(aString, at: index)
     return string as String
@@ -36,7 +36,7 @@ public extension String {
   /// 验证字符串是否是身份证号
   ///
   /// - Returns:
-  public func checkIDNumber() -> Bool {
+  func checkIDNumber() -> Bool {
     let idRegex = "^[1-9]\\d{5}[1-9]\\d{3}((0\\d)|(1[0-2]))(([0|1|2]\\d)|3[0-1])\\d{3}([0-9]|X)$"
     let identifyCardPredicate: NSPredicate = NSPredicate(format: "SELF MATCHES %@", idRegex)
     return identifyCardPredicate.evaluate(with: self)
